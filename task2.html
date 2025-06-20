@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Stop Watch</title>
+      <meta name"author" content="B.Hailu">
+      <meta name="description" content="Stop Watch Practice">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    
+    <div class="header">
+      <h1>Stop Watch</h1>
+    </div>
+    <center>
+    <div id="board">
+      <p id="SW">
+        <span id="minutes">00</span> :
+        <span id="seconds">00</span> :
+        <span id='mseconds'>00</span> 
+      </p>
+    </div>
+    </center>
+    <br>
+    <center>
+    <button onclick="start()" id="start" class="btn">Start</button>
+    <button onclick="stop()" id="stop" class="btn">Stop</button>
+    <button onclick="reset()" id="reset" class="btn">Reset</button>
+    <button onclick="lap()" id="lap" class="btn">Lap</button>
+    </center>
+    <br>
+    <div>
+      <ul id="myul">
+      </ul>
+    </div>
+    <script src="task2.js" ></script>
+  </body>
+  </html>
